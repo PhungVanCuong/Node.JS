@@ -1,0 +1,41 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "backend nodejs hoiDanIT",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec ./node_modules/.bin/babel-node src/server.js"
+  },
+  "keywords": [
+    "fullstack",
+    "nodejs",
+    "express",
+    "cuong"
+  ],
+  "author": "cuong phung",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1", 
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mariadb": "^3.3.1",
+    "mysql2": "^3.11.0",
+    "oracledb": "^6.6.0",
+    "pg": "^8.12.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.3",
+    "sqlite3": "^5.1.7",
+    "tedious": "^18.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.25.2",
+    "@babel/node": "7.25.0",
+    "@babel/preset-env": "7.25.3",
+    "nodemon": "^2.0.7",
+    "sequelize-cli": "^6.6.2"
+  }
+}
